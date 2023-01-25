@@ -1,4 +1,4 @@
-package org.vizzoid;
+package org.vizzoid.showcase;
 
 /**
  * Represents player

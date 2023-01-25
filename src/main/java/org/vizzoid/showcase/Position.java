@@ -1,4 +1,4 @@
-package org.vizzoid;
+package org.vizzoid.showcase;
 
 /**
  * 3D immutable position template

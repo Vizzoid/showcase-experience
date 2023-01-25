@@ -1,4 +1,4 @@
-package org.vizzoid;
+package org.vizzoid.showcase;
 
 /**
  * Simple helper, represents a single key that can modify a position if its respective key is down
