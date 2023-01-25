@@ -6,6 +6,7 @@ package org.vizzoid;
 public class Critic {
 
     private final MovingPosition position;
+    private OpenInfo info = OpenInfo.EMPTY;
 
     public Critic() {
         position = new MovingPosition();
@@ -14,4 +15,13 @@ public class Critic {
     public MovingPosition getPosition() {
         return position;
     }
+    
+    public OpenInfo getInfo() {
+        return info;
+    }
+    
+    public void setInfo(OpenInfo info) {
+        this.info = info;
+    }
+    
 }
