@@ -1,4 +1,4 @@
-package org.vizzoid.showcase;
+package org.vizzoid.utils;
 
 /**
  * 3D position that can change without creating new position object with helper functions

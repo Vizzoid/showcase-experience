@@ -1,5 +1,7 @@
 package org.vizzoid.showcase;
 
+import org.vizzoid.utils.MovingPosition;
+
 /**
  * Represents player
  */
@@ -22,6 +24,10 @@ public class Critic {
     
     public void setInfo(OpenInfo info) {
         this.info = info;
+    }
+
+    public void interact() {
+
     }
     
 }

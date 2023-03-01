@@ -8,11 +8,11 @@ import java.awt.*;
 public class InteractiveObject {
     
     private final Info info;
-    private final Image[] images;
+    private final Image display;
     
-    public InteractiveObject(Info info, Image... images) {
+    public InteractiveObject(Info info, Image display) {
         this.info = info;
-        this.images = images;
+        this.display = display;
     }
     
     public void interact(Critic critic) {
